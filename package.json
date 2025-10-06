@@ -1,0 +1,19 @@
+{
+  "name": "lab4repo",
+  "version": "1.0.0",
+  "description": "Lab 4 Web Application by Arsal, CJ, and Adrian",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConradCJM/Lab4Repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConradCJM/Lab4Repo/issues"
+  },
+  "homepage": "https://github.com/ConradCJM/Lab4Repo#readme"
+}
