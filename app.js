@@ -1,14 +1,12 @@
-const http = require("http");
+const express = require("express");
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader("Content-Type", "text/plain");
-  res.end("Hello, World!\n");
+const app = express();
+const port = 5000;
+
+app.get("/", (req, res) => {
+  res.send("Hello World, from Docker!");
 });
 
-const port = 3000;
-const hostname = "127.0.0.1";
-
-server.listen(port, hostname, () => {
-  console.log(`Hello World, from Docker!`);
+app.listen(port, () => {
+  console.log(`Listening on port ${port}`);
 });

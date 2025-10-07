@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ConradCJM/Lab4Repo/issues"
   },
-  "homepage": "https://github.com/ConradCJM/Lab4Repo#readme"
+  "homepage": "https://github.com/ConradCJM/Lab4Repo#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }

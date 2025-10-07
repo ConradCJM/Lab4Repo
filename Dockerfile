@@ -1,7 +1,5 @@
-FROM app.js
+FROM node:18
 WORKDIR /app
-COPY requirements.txt .
-RUN -r requirements.txt
 COPY . .
 EXPOSE 5000
-CMD ["Node.js”]
+CMD ["node", "app.js"]
